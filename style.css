@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    display: flex;
+    justify-content: space-around;
+}
+.card1::before {
+    background-image: url(/img/antenna1.png);
+    position: absolute;
+    content: "";
+    width: 350px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.card2::before {
+    background-image: url(/img/clock1.png);
+    position: absolute;
+    content: "";
+    width: 350px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.card3::before {
+    background-image: url(/img/diagram1.png);
+    position: absolute;
+    content: "";
+    width: 350px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.card4::before {
+    background-image: url(/img/astronaut1.png);
+    position: absolute;
+    content: "";
+    width: 350px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
